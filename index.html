@@ -1,0 +1,1145 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Arij Oudi | Software Engineering Student &amp; Tech Builder</title>
+  <meta
+    name="description"
+    content="Portfolio of Arij Oudi — Software Engineering Student passionate about Artificial Intelligence, Cloud Computing, DevOps, Full-Stack Development, and Robotics."
+  />
+  <meta property="og:title" content="Arij Oudi | Software Engineering Portfolio" />
+  <meta
+    property="og:description"
+    content="Software Engineering Student | AI, Cloud Computing, DevOps &amp; Full-Stack Web Development."
+  />
+  <meta property="og:type" content="website" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&family=Space+Grotesk:wght@600;700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Scroll Progress Bar -->
+  <div class="scroll-progress" id="scroll-progress" aria-hidden="true"></div>
+
+  <!-- Ambient Tech Background -->
+  <div class="bg-grid" aria-hidden="true"></div>
+  <div class="bg-orb bg-orb-1" aria-hidden="true"></div>
+  <div class="bg-orb bg-orb-2" aria-hidden="true"></div>
+
+  <!-- Navigation -->
+  <header class="navbar">
+    <div class="container nav-inner">
+      <a href="#top" class="brand" aria-label="Arij Oudi Home">
+        <span class="brand-mark">AO</span>
+        <span>arij<span class="brand-dot">.</span>dev</span>
+      </a>
+
+      <nav class="nav-links" id="nav-links" aria-label="Primary Navigation">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#certifications" class="nav-link">Certifications</a>
+        <a href="#leadership" class="nav-link">Leadership</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button
+          id="theme-toggle"
+          class="icon-btn"
+          type="button"
+          aria-label="Toggle color theme"
+          title="Toggle Dark / Light Mode"
+        >
+          <svg class="theme-icon-dark" width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="4"></circle>
+            <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"></path>
+          </svg>
+          <svg class="theme-icon-light" width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3a7 7 0 0 0 9.79 9.79z"></path>
+          </svg>
+        </button>
+
+        <a
+          href="https://github.com/Arij77-jpg"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="icon-btn"
+          aria-label="GitHub Profile"
+          title="GitHub: Arij77-jpg"
+        >
+          <svg width="19" height="19" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.56 0-.28-.01-1.02-.02-2-3.2.7-3.88-1.54-3.88-1.54-.52-1.33-1.28-1.69-1.28-1.69-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.71 1.26 3.37.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11.05 11.05 0 0 1 5.79 0c2.21-1.49 3.18-1.18 3.18-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.42-2.69 5.39-5.26 5.68.41.36.78 1.07.78 2.15 0 1.55-.01 2.8-.01 3.18 0 .31.21.68.8.56A11.51 11.51 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"/>
+          </svg>
+        </a>
+
+        <button
+          id="mobile-toggle"
+          class="icon-btn mobile-toggle"
+          type="button"
+          aria-label="Toggle navigation menu"
+          aria-expanded="false"
+        >
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- Hero Section -->
+    <section class="hero">
+      <canvas id="hero-canvas" aria-hidden="true"></canvas>
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="badge">
+            <span class="pulse-dot" aria-hidden="true"></span>
+            <span>Open to Opportunities &middot; Zarzis, Tunisia</span>
+          </div>
+
+          <h1 class="hero-title">
+            Hi, I'm <span class="gradient-text">Arij Oudi</span>.
+          </h1>
+
+          <div class="hero-role" aria-live="polite">
+            <span class="role-prefix">&gt;_</span>
+            <span id="typed-role">Software Engineering Student</span>
+            <span class="cursor" aria-hidden="true"></span>
+          </div>
+
+          <p class="hero-summary">
+            Motivated Software Engineering student with strong foundations in programming,
+            algorithms, databases, and software development. Passionate about
+            <strong>Artificial Intelligence</strong>, <strong>Cloud Computing</strong>,
+            <strong>DevOps</strong>, and building efficient, real-world software solutions.
+          </p>
+
+          <div class="hero-ctas">
+            <a href="#projects" class="btn btn-primary">
+              <span>Explore Projects</span>
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
+              </svg>
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              <span>Contact Me</span>
+            </a>
+            <a
+              href="https://github.com/Arij77-jpg"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn btn-secondary"
+            >
+              <span>GitHub</span>
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M7 17L17 7M7 7h10v10"></path>
+              </svg>
+            </a>
+          </div>
+
+          <div class="hero-meta">
+            <span class="hero-meta-item">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+              Zarzis, Tunisia
+            </span>
+            <span class="hero-meta-item">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+              arij.oudi@horizon-university.tn
+            </span>
+          </div>
+        </div>
+
+        <div class="hero-panel">
+          <div class="hero-profile-card">
+            <div class="avatar-ring">
+              <img
+                src="assets/profile.jpg"
+                alt="Portrait of Arij Oudi"
+                class="avatar-img"
+              />
+            </div>
+            <div class="profile-card-info">
+              <div class="profile-card-name">Arij Oudi</div>
+              <div class="profile-card-role">Software Engineering Student</div>
+              <div class="profile-card-tags">
+                <span class="mini-tag">AI &amp; Deep Learning</span>
+                <span class="mini-tag">Cloud &amp; DevOps</span>
+                <span class="mini-tag">Robotics</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="terminal-card">
+            <div class="terminal-header">
+              <div class="terminal-dots" aria-hidden="true">
+                <span class="dot dot-red"></span>
+                <span class="dot dot-yellow"></span>
+                <span class="dot dot-green"></span>
+              </div>
+              <span class="terminal-title">arij@horizon-dev: ~/profile.json</span>
+            </div>
+            <div class="terminal-body">
+              <span class="code-line"><span class="t-prompt">$</span> <span class="t-cmd">cat profile.json</span></span>
+              <span class="code-line"><span class="t-muted">{</span></span>
+              <span class="code-line">  <span class="t-key">"name"</span>: <span class="t-str">"Arij Oudi"</span>,</span>
+              <span class="code-line">  <span class="t-key">"role"</span>: <span class="t-str">"Software Engineer Student"</span>,</span>
+              <span class="code-line">  <span class="t-key">"university"</span>: <span class="t-str">"Horizon School of Digital Tech"</span>,</span>
+              <span class="code-line">  <span class="t-key">"interests"</span>: [<span class="t-str">"AI"</span>, <span class="t-str">"Cloud"</span>, <span class="t-str">"DevOps"</span>],</span>
+              <span class="code-line">  <span class="t-key">"leadership"</span>: <span class="t-str">"Founder &amp; President, HoriBot Club"</span>,</span>
+              <span class="code-line">  <span class="t-key">"roboticsCerts"</span>: <span class="t-num">15+</span>,</span>
+              <span class="code-line">  <span class="t-key">"status"</span>: <span class="t-str">"Building &amp; Learning"</span></span>
+              <span class="code-line"><span class="t-muted">}</span></span>
+            </div>
+          </div>
+
+          <div class="hero-stats">
+            <div class="stat-card">
+              <div class="stat-value" data-count="15" data-suffix="+">15+</div>
+              <div class="stat-label">Robotics Certifications</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-value" data-count="10" data-suffix="+">10+</div>
+              <div class="stat-label">Robotics Competitions</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-value" data-count="10" data-suffix="+">10+</div>
+              <div class="stat-label">Academic &amp; Tech Events</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-value" data-count="3" data-suffix="">3</div>
+              <div class="stat-label">International Degree Tracks</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About & Education -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">01 // Background</span>
+          <h2 class="section-title">About &amp; Education</h2>
+          <p class="section-subtitle">
+            Combining international academic rigor with hands-on software engineering, robotics leadership, and a drive for modern cloud &amp; AI systems.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <article class="card about-text reveal">
+            <h3 class="skill-card-title" style="margin-bottom: 14px;">Engineering Mindset</h3>
+            <p>
+              I am a Software Engineering student at Horizon School of Digital Technology with a strong foundation in algorithms, programming, and database architecture. Whether designing full-stack web applications or leading robotics teams, I thrive on solving complex problems cleanly and collaboratively.
+            </p>
+            <p>
+              Beyond code, I founded the HoriBot Club, train middle school students in robotics, and actively contribute to tech communities like GDSC, Delta Club, and GAICA Global AI Congress.
+            </p>
+
+            <div class="focus-pills">
+              <span class="pill">Artificial Intelligence</span>
+              <span class="pill">Cloud Computing</span>
+              <span class="pill">DevOps</span>
+              <span class="pill">Full-Stack Web</span>
+              <span class="pill">Robotics</span>
+            </div>
+
+            <div class="languages-box">
+              <div class="languages-title">Spoken Languages</div>
+              <div class="lang-list">
+                <span class="lang-chip">English <span class="lang-level">Fluent</span></span>
+                <span class="lang-chip">Arabic <span class="lang-level">Fluent</span></span>
+                <span class="lang-chip">French <span class="lang-level">Basic</span></span>
+              </div>
+            </div>
+          </article>
+
+          <div class="timeline reveal">
+            <article class="card edu-card">
+              <div class="edu-header">
+                <h3 class="edu-school">Horizon School of Digital Technology</h3>
+                <span class="edu-badge">Current</span>
+              </div>
+              <ul class="edu-list">
+                <li>Bachelor's in Software Engineering and Information Systems</li>
+                <li>Currently enrolled in the Double Degree Program with <strong>Chinese Bingeng Polytechnic</strong></li>
+                <li>Enrolled in a Dual Degree Program with <strong>Collège de Paris</strong></li>
+              </ul>
+            </article>
+
+            <article class="card edu-card">
+              <div class="edu-header">
+                <h3 class="edu-school">High School Diploma</h3>
+                <span class="edu-badge">2024</span>
+              </div>
+              <ul class="edu-list">
+                <li>Tunisian National Curriculum</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">02 // Featured Work</span>
+          <h2 class="section-title">Selected Projects</h2>
+          <p class="section-subtitle">
+            Software systems, interactive browser games, and hands-on robotics &amp; IoT prototypes.
+          </p>
+        </div>
+
+        <div class="filter-bar reveal" role="group" aria-label="Filter projects">
+          <button type="button" class="filter-btn active" data-filter="all">All Projects (8)</button>
+          <button type="button" class="filter-btn" data-filter="fullstack">Full-Stack Systems</button>
+          <button type="button" class="filter-btn" data-filter="game">Interactive &amp; Algorithms</button>
+          <button type="button" class="filter-btn" data-filter="robotics">Robotics &amp; IoT</button>
+        </div>
+
+        <div class="projects-grid">
+          <!-- HorizonExam -->
+          <article class="card project-card reveal" data-category="fullstack">
+            <div class="project-banner banner-exam">
+              <div class="project-top-row">
+                <span class="project-type">Full-Stack Web App</span>
+                <div class="project-icon-wrap" aria-hidden="true">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="3" y="4" width="18" height="16" rx="2"></rect>
+                    <path d="M8 9h8M8 13h5M8 17h3"></path>
+                  </svg>
+                </div>
+              </div>
+              <span class="project-visual-label">// multi-role platform: admin &middot; teacher &middot; student</span>
+            </div>
+
+            <div class="project-body">
+              <h3 class="project-title">HorizonExam</h3>
+              <p class="project-desc">
+                Examination management system designed for administrators, teachers, and students to streamline scheduling, assessment workflows, and academic oversight.
+              </p>
+              <div class="tech-stack">
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">Node.js</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">HTML</span>
+                <span class="tech-tag">CSS</span>
+              </div>
+              <div class="project-actions">
+                <button
+                  type="button"
+                  class="btn btn-secondary btn-sm open-modal-btn"
+                  data-project="horizonexam"
+                >
+                  View Details
+                </button>
+                <a
+                  href="https://github.com/Arij77-jpg"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="nav-link"
+                >
+                  GitHub &rarr;
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- The Snitch's Path -->
+          <article class="card project-card reveal" data-category="game">
+            <div class="project-banner banner-snitch">
+              <div class="project-top-row">
+                <span class="project-type">Algorithmic Game</span>
+                <div class="project-icon-wrap" aria-hidden="true">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="5"></circle>
+                    <path d="M2 9c3 0 5 1 6 3M22 9c-3 0-5 1-6 3M5 17l3-2M19 17l-3-2"></path>
+                  </svg>
+                </div>
+              </div>
+              <span class="project-visual-label">// path-finding logic &amp; interactive gameplay</span>
+            </div>
+
+            <div class="project-body">
+              <h3 class="project-title">The Snitch's Path</h3>
+              <p class="project-desc">
+                Interactive Harry Potter-inspired game focused on path-finding concepts, blending algorithmic traversal mechanics with engaging browser-based gameplay.
+              </p>
+              <div class="tech-stack">
+                <span class="tech-tag">HTML</span>
+                <span class="tech-tag">CSS</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">Path-Finding</span>
+              </div>
+              <div class="project-actions">
+                <button
+                  type="button"
+                  class="btn btn-secondary btn-sm open-modal-btn"
+                  data-project="snitch"
+                >
+                  View Details
+                </button>
+                <a
+                  href="https://github.com/Arij77-jpg"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="nav-link"
+                >
+                  GitHub &rarr;
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Adventure Time Treasure Hunt -->
+          <article class="card project-card reveal" data-category="game">
+            <div class="project-banner banner-adventure">
+              <div class="project-top-row">
+                <span class="project-type">2D Browser Game</span>
+                <div class="project-icon-wrap" aria-hidden="true">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polygon points="3 6 9 3 15 6 21 3 21 18 15 21 9 18 3 21"></polygon>
+                    <line x1="9" y1="3" x2="9" y2="18"></line>
+                    <line x1="15" y1="6" x2="15" y2="21"></line>
+                  </svg>
+                </div>
+              </div>
+              <span class="project-visual-label">// 2D canvas movement &amp; collision state</span>
+            </div>
+
+            <div class="project-body">
+              <h3 class="project-title">Adventure Time Treasure Hunt</h3>
+              <p class="project-desc">
+                2D treasure hunt game inspired by Adventure Time, featuring responsive player controls, level exploration, and interactive game-state logic.
+              </p>
+              <div class="tech-stack">
+                <span class="tech-tag">HTML</span>
+                <span class="tech-tag">CSS</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">2D Game</span>
+              </div>
+              <div class="project-actions">
+                <button
+                  type="button"
+                  class="btn btn-secondary btn-sm open-modal-btn"
+                  data-project="adventure"
+                >
+                  View Details
+                </button>
+                <a
+                  href="https://github.com/Arij77-jpg"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="nav-link"
+                >
+                  GitHub &rarr;
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Robot Téléguidé -->
+          <article class="card project-card reveal" data-category="robotics">
+            <div class="project-banner banner-robotics">
+              <div class="project-top-row">
+                <span class="project-type">Robotics</span>
+                <div class="project-icon-wrap" aria-hidden="true">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="4" y="8" width="16" height="10" rx="3"></rect>
+                    <path d="M12 2v6M8 13h.01M16 13h.01M7 18v2M17 18v2"></path>
+                  </svg>
+                </div>
+              </div>
+              <span class="project-visual-label">// wireless control &amp; motor actuation</span>
+            </div>
+
+            <div class="project-body">
+              <h3 class="project-title">Robot T&eacute;l&eacute;guid&eacute;</h3>
+              <p class="project-desc">
+                Remote-controlled robotic vehicle engineered for wireless steering, real-time motor control, and embedded hardware-software integration.
+              </p>
+              <div class="tech-stack">
+                <span class="tech-tag">Robotics</span>
+                <span class="tech-tag">Embedded C</span>
+                <span class="tech-tag">Wireless Control</span>
+                <span class="tech-tag">Motors</span>
+              </div>
+              <div class="project-actions">
+                <button
+                  type="button"
+                  class="btn btn-secondary btn-sm open-modal-btn"
+                  data-project="robot-teleguide"
+                >
+                  View Details
+                </button>
+                <a
+                  href="https://github.com/Arij77-jpg"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="nav-link"
+                >
+                  GitHub &rarr;
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Smart Home -->
+          <article class="card project-card reveal" data-category="robotics">
+            <div class="project-banner banner-iot">
+              <div class="project-top-row">
+                <span class="project-type">IoT &amp; Automation</span>
+                <div class="project-icon-wrap" aria-hidden="true">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M3 10.5L12 3l9 7.5V20a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"></path>
+                  </svg>
+                </div>
+              </div>
+              <span class="project-visual-label">// smart sensors &amp; home automation</span>
+            </div>
+
+            <div class="project-body">
+              <h3 class="project-title">Smart Home</h3>
+              <p class="project-desc">
+                Intelligent home automation prototype combining environmental sensors, automated lighting/security triggers, and remote control logic.
+              </p>
+              <div class="tech-stack">
+                <span class="tech-tag">IoT</span>
+                <span class="tech-tag">Sensors</span>
+                <span class="tech-tag">Automation</span>
+                <span class="tech-tag">Embedded Systems</span>
+              </div>
+              <div class="project-actions">
+                <button
+                  type="button"
+                  class="btn btn-secondary btn-sm open-modal-btn"
+                  data-project="smart-home"
+                >
+                  View Details
+                </button>
+                <a
+                  href="https://github.com/Arij77-jpg"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="nav-link"
+                >
+                  GitHub &rarr;
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Ski Téléguidé -->
+          <article class="card project-card reveal" data-category="robotics">
+            <div class="project-banner banner-ski">
+              <div class="project-top-row">
+                <span class="project-type">Robotics</span>
+                <div class="project-icon-wrap" aria-hidden="true">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M4 17l16 3M7 13l5-5 4 3 4-4"></path>
+                    <circle cx="15" cy="5" r="1.5"></circle>
+                  </svg>
+                </div>
+              </div>
+              <span class="project-visual-label">// remote-controlled gliding robotics</span>
+            </div>
+
+            <div class="project-body">
+              <h3 class="project-title">Ski T&eacute;l&eacute;guid&eacute;</h3>
+              <p class="project-desc">
+                Remote-controlled robotic ski prototype built for balanced navigation, directional telemetry, and low-friction gliding mechanics.
+              </p>
+              <div class="tech-stack">
+                <span class="tech-tag">Robotics</span>
+                <span class="tech-tag">Remote Control</span>
+                <span class="tech-tag">Actuators</span>
+                <span class="tech-tag">Prototyping</span>
+              </div>
+              <div class="project-actions">
+                <button
+                  type="button"
+                  class="btn btn-secondary btn-sm open-modal-btn"
+                  data-project="ski-teleguide"
+                >
+                  View Details
+                </button>
+                <a
+                  href="https://github.com/Arij77-jpg"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="nav-link"
+                >
+                  GitHub &rarr;
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Smart City -->
+          <article class="card project-card reveal" data-category="robotics">
+            <div class="project-banner banner-city">
+              <div class="project-top-row">
+                <span class="project-type">IoT &amp; Smart Infrastructure</span>
+                <div class="project-icon-wrap" aria-hidden="true">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M3 21h18M5 21V7l5-3v17M14 21V10l5-2v13M8 10h.01M8 14h.01M16 14h.01"></path>
+                  </svg>
+                </div>
+              </div>
+              <span class="project-visual-label">// connected urban systems &amp; traffic logic</span>
+            </div>
+
+            <div class="project-body">
+              <h3 class="project-title">Smart City</h3>
+              <p class="project-desc">
+                Connected urban infrastructure model featuring automated street lighting, smart traffic management, and sensor-based environmental monitoring.
+              </p>
+              <div class="tech-stack">
+                <span class="tech-tag">Smart City</span>
+                <span class="tech-tag">IoT</span>
+                <span class="tech-tag">Automation</span>
+                <span class="tech-tag">Sensors</span>
+              </div>
+              <div class="project-actions">
+                <button
+                  type="button"
+                  class="btn btn-secondary btn-sm open-modal-btn"
+                  data-project="smart-city"
+                >
+                  View Details
+                </button>
+                <a
+                  href="https://github.com/Arij77-jpg"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="nav-link"
+                >
+                  GitHub &rarr;
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Tout-Terrain Robot -->
+          <article class="card project-card reveal" data-category="robotics">
+            <div class="project-banner banner-rover">
+              <div class="project-top-row">
+                <span class="project-type">All-Terrain Robotics</span>
+                <div class="project-icon-wrap" aria-hidden="true">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="4" y="9" width="16" height="6" rx="2"></rect>
+                    <circle cx="7" cy="18" r="2.5"></circle>
+                    <circle cx="17" cy="18" r="2.5"></circle>
+                    <path d="M9 9V6h6v3"></path>
+                  </svg>
+                </div>
+              </div>
+              <span class="project-visual-label">// rugged chassis &amp; off-road mobility</span>
+            </div>
+
+            <div class="project-body">
+              <h3 class="project-title">Robot Tout-Terrain</h3>
+              <p class="project-desc">
+                Rugged all-terrain robotic rover designed to traverse uneven surfaces, overcome obstacles, and maintain stable traction across challenging ground.
+              </p>
+              <div class="tech-stack">
+                <span class="tech-tag">Robotics</span>
+                <span class="tech-tag">All-Terrain</span>
+                <span class="tech-tag">Hardware</span>
+                <span class="tech-tag">Control Systems</span>
+              </div>
+              <div class="project-actions">
+                <button
+                  type="button"
+                  class="btn btn-secondary btn-sm open-modal-btn"
+                  data-project="tout-terrain"
+                >
+                  View Details
+                </button>
+                <a
+                  href="https://github.com/Arij77-jpg"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="nav-link"
+                >
+                  GitHub &rarr;
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">03 // Technical Stack</span>
+          <h2 class="section-title">Skills &amp; Tooling</h2>
+          <p class="section-subtitle">
+            Core languages, web frameworks, container &amp; database tools, and engineering practices I work with.
+          </p>
+        </div>
+
+        <div class="skills-grid">
+          <article class="card reveal">
+            <div class="skill-card-header">
+              <div class="skill-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+              </div>
+              <h3 class="skill-card-title">Programming Languages</h3>
+            </div>
+            <div class="skill-chips">
+              <span class="skill-chip"><span class="skill-dot"></span>Java</span>
+              <span class="skill-chip"><span class="skill-dot"></span>Python</span>
+              <span class="skill-chip"><span class="skill-dot"></span>C</span>
+              <span class="skill-chip"><span class="skill-dot"></span>JavaScript</span>
+            </div>
+          </article>
+
+          <article class="card reveal">
+            <div class="skill-card-header">
+              <div class="skill-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <line x1="2" y1="12" x2="22" y2="12"></line>
+                  <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                </svg>
+              </div>
+              <h3 class="skill-card-title">Web &amp; Databases</h3>
+            </div>
+            <div class="skill-chips">
+              <span class="skill-chip"><span class="skill-dot"></span>React</span>
+              <span class="skill-chip"><span class="skill-dot"></span>Node.js</span>
+              <span class="skill-chip"><span class="skill-dot"></span>HTML</span>
+              <span class="skill-chip"><span class="skill-dot"></span>CSS</span>
+              <span class="skill-chip"><span class="skill-dot"></span>SQL</span>
+              <span class="skill-chip"><span class="skill-dot"></span>NoSQL</span>
+            </div>
+          </article>
+
+          <article class="card reveal">
+            <div class="skill-card-header">
+              <div class="skill-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
+                </svg>
+              </div>
+              <h3 class="skill-card-title">DevOps, Tools &amp; AI</h3>
+            </div>
+            <div class="skill-chips">
+              <span class="skill-chip"><span class="skill-dot"></span>Docker</span>
+              <span class="skill-chip"><span class="skill-dot"></span>Git</span>
+              <span class="skill-chip"><span class="skill-dot"></span>MySQL</span>
+              <span class="skill-chip"><span class="skill-dot"></span>AI Tools</span>
+              <span class="skill-chip"><span class="skill-dot"></span>IDEs</span>
+            </div>
+          </article>
+
+          <article class="card reveal">
+            <div class="skill-card-header">
+              <div class="skill-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+                  <path d="M2 17l10 5 10-5"></path>
+                  <path d="M2 12l10 5 10-5"></path>
+                </svg>
+              </div>
+              <h3 class="skill-card-title">Engineering Methodologies</h3>
+            </div>
+            <div class="skill-chips">
+              <span class="skill-chip"><span class="skill-dot"></span>Agile Development</span>
+              <span class="skill-chip"><span class="skill-dot"></span>Git Version Control</span>
+              <span class="skill-chip"><span class="skill-dot"></span>Test-Driven Development (TDD)</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications & Leadership -->
+    <section id="certifications" class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">04 // Credentials &amp; Trainings</span>
+          <h2 class="section-title">Certifications &amp; Specialized Trainings</h2>
+          <p class="section-subtitle">
+            Industry-recognized credentials and hands-on trainings spanning deep learning, front-end engineering, robotics, aeronautics, design, and first aid.
+          </p>
+        </div>
+
+        <div class="certs-grid">
+          <article class="card cert-card reveal">
+            <span class="cert-issuer">NVIDIA</span>
+            <h3 class="cert-title">Fundamentals of Deep Learning</h3>
+            <span class="cert-meta">Artificial Intelligence &amp; Neural Networks</span>
+          </article>
+
+          <article class="card cert-card reveal">
+            <span class="cert-issuer">META</span>
+            <h3 class="cert-title">Front-End Development</h3>
+            <span class="cert-meta">Modern Web UI &amp; React Practices</span>
+          </article>
+
+          <article class="card cert-card reveal">
+            <span class="cert-issuer">HP LIFE</span>
+            <h3 class="cert-title">Digital Business Skills</h3>
+            <span class="cert-meta">Technology &amp; Product Strategy</span>
+          </article>
+
+          <article class="card cert-card reveal">
+            <span class="cert-issuer">Robotics</span>
+            <h3 class="cert-title">15+ Robotics Certifications</h3>
+            <span class="cert-meta">Embedded Systems, Hardware &amp; Competitions</span>
+          </article>
+
+          <article class="card cert-card reveal">
+            <span class="cert-issuer">FTSAAA</span>
+            <h3 class="cert-title">Stage de Formation Cerf-volant</h3>
+            <span class="cert-meta">F&eacute;d&eacute;ration Tunisienne des Sports A&eacute;ronautiques et des Activit&eacute;s Associ&eacute;es</span>
+          </article>
+
+          <article class="card cert-card reveal">
+            <span class="cert-issuer">Creative Tech</span>
+            <h3 class="cert-title">Formation Graphic Design</h3>
+            <span class="cert-meta">Visual Communication, Layout &amp; Digital Design</span>
+          </article>
+
+          <article class="card cert-card reveal">
+            <span class="cert-issuer">Safety &amp; First Aid</span>
+            <h3 class="cert-title">Formation Secourisme</h3>
+            <span class="cert-meta">First Aid, Emergency Response &amp; Prevention</span>
+          </article>
+        </div>
+
+        <div id="leadership" class="section-header reveal" style="margin-top: 24px;">
+          <span class="section-tag">05 // Community &amp; Impact</span>
+          <h2 class="section-title">Leadership, Teaching &amp; Activities</h2>
+          <p class="section-subtitle">
+            Building student tech &amp; scout robotics communities, training young students in Zarzis, and competing in national tech challenges.
+          </p>
+        </div>
+
+        <div class="filter-bar reveal" role="group" aria-label="Filter leadership and achievements">
+          <button type="button" class="filter-btn active" data-lead-filter="all">All (14)</button>
+          <button type="button" class="filter-btn" data-lead-filter="leadership">Clubs &amp; Leadership</button>
+          <button type="button" class="filter-btn" data-lead-filter="training">Training &amp; Teaching</button>
+          <button type="button" class="filter-btn" data-lead-filter="competition">Competitions</button>
+          <button type="button" class="filter-btn" data-lead-filter="outreach">Events &amp; Outreach</button>
+        </div>
+
+        <div class="leadership-grid">
+          <article class="card lead-item reveal" data-lead-cat="leadership">
+            <div class="lead-icon" aria-hidden="true">&#9733;</div>
+            <div>
+              <h3 class="lead-title">Founder and President of HoriBot Club</h3>
+              <span class="lead-tag">Leadership // Robotics &amp; Engineering Club</span>
+            </div>
+          </article>
+
+          <article class="card lead-item reveal" data-lead-cat="leadership">
+            <div class="lead-icon" aria-hidden="true">&#9873;</div>
+            <div>
+              <h3 class="lead-title">Inaugurated Robotics Club &mdash; Tunisian Scouts (Kachafa), Zarzis Branch</h3>
+              <span class="lead-tag">Leadership // Youth Robotics Initiative &middot; Far&acirc;a Zarzis</span>
+            </div>
+          </article>
+
+          <article class="card lead-item reveal" data-lead-cat="training">
+            <div class="lead-icon" aria-hidden="true">&#127891;</div>
+            <div>
+              <h3 class="lead-title">Robotics Trainer (Formatrice) &mdash; Coll&egrave;ge Mouansa, Zarzis</h3>
+              <span class="lead-tag">Teaching // Hands-on Robotics Training for Middle School Students</span>
+            </div>
+          </article>
+
+          <article class="card lead-item reveal" data-lead-cat="training">
+            <div class="lead-icon" aria-hidden="true">&#127979;</div>
+            <div>
+              <h3 class="lead-title">Robotics Trainer (Formatrice) &mdash; &Eacute;cole Priv&eacute;e &laquo;&nbsp;&Eacute;cole de la Vie&nbsp;&raquo;, Zarzis</h3>
+              <span class="lead-tag">Teaching // STEM &amp; Robotics Workshops for Students</span>
+            </div>
+          </article>
+
+          <article class="card lead-item reveal" data-lead-cat="training">
+            <div class="lead-icon" aria-hidden="true">&#129665;</div>
+            <div>
+              <h3 class="lead-title">Cerf-volant Training Internship &mdash; FTSAAA</h3>
+              <span class="lead-tag">Training // F&eacute;d&eacute;ration Tunisienne des Sports A&eacute;ronautiques et des Activit&eacute;s Associ&eacute;es</span>
+            </div>
+          </article>
+
+          <article class="card lead-item reveal" data-lead-cat="training">
+            <div class="lead-icon" aria-hidden="true">&#127912;</div>
+            <div>
+              <h3 class="lead-title">Completed Graphic Design &amp; Secourisme (First Aid) Trainings</h3>
+              <span class="lead-tag">Training // Visual Design &amp; Emergency Response Skills</span>
+            </div>
+          </article>
+
+          <article class="card lead-item reveal" data-lead-cat="leadership">
+            <div class="lead-icon" aria-hidden="true">&lt;/&gt;</div>
+            <div>
+              <h3 class="lead-title">Member of Google Developer Student Club (GDSC)</h3>
+              <span class="lead-tag">Community // Developer Ecosystem</span>
+            </div>
+          </article>
+
+          <article class="card lead-item reveal" data-lead-cat="leadership">
+            <div class="lead-icon" aria-hidden="true">&#9670;</div>
+            <div>
+              <h3 class="lead-title">Member of Delta Club</h3>
+              <span class="lead-tag">Community // Student Organization</span>
+            </div>
+          </article>
+
+          <article class="card lead-item reveal" data-lead-cat="leadership">
+            <div class="lead-icon" aria-hidden="true">&#9881;</div>
+            <div>
+              <h3 class="lead-title">Member of the Young Engineers Association of Zarzis</h3>
+              <span class="lead-tag">Association // Regional Engineering Network</span>
+            </div>
+          </article>
+
+          <article class="card lead-item reveal" data-lead-cat="competition">
+            <div class="lead-icon" aria-hidden="true">&#9889;</div>
+            <div>
+              <h3 class="lead-title">Participant, Nuit de l'Info Competition (2024, 2025)</h3>
+              <span class="lead-tag">Competition // National Software Hackathon</span>
+            </div>
+          </article>
+
+          <article class="card lead-item reveal" data-lead-cat="competition">
+            <div class="lead-icon" aria-hidden="true">&#129302;</div>
+            <div>
+              <h3 class="lead-title">Participated in 10+ Robotics Competitions</h3>
+              <span class="lead-tag">Competitions // Hosted by Various Universities &amp; Faculties</span>
+            </div>
+          </article>
+
+          <article class="card lead-item reveal" data-lead-cat="competition">
+            <div class="lead-icon" aria-hidden="true">&#127942;</div>
+            <div>
+              <h3 class="lead-title">Participant, AJIZ Tech Challenge 1.0 &ndash; Zarzis</h3>
+              <span class="lead-tag">Competition // Tech &amp; Innovation Challenge</span>
+            </div>
+          </article>
+
+          <article class="card lead-item reveal" data-lead-cat="outreach">
+            <div class="lead-icon" aria-hidden="true">&#127760;</div>
+            <div>
+              <h3 class="lead-title">Staff Member, GAICA Global AI Congress</h3>
+              <span class="lead-tag">Conference // Global AI Event Operations</span>
+            </div>
+          </article>
+
+          <article class="card lead-item reveal" data-lead-cat="outreach">
+            <div class="lead-icon" aria-hidden="true">&#128197;</div>
+            <div>
+              <h3 class="lead-title">Organized &amp; Coordinated 10+ Academic &amp; Extracurricular Events</h3>
+              <span class="lead-tag">Coordination // Campus &amp; Community Events</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">06 // Get In Touch</span>
+          <h2 class="section-title">Let's Connect</h2>
+          <p class="section-subtitle">
+            Interested in collaborating on software engineering, AI, Cloud/DevOps, or robotics initiatives? Reach out directly.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-cards reveal">
+            <div class="card contact-item">
+              <div class="contact-item-left">
+                <div class="skill-icon" aria-hidden="true">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                  </svg>
+                </div>
+                <div>
+                  <div class="contact-label">Email</div>
+                  <a href="mailto:arij.oudi@horizon-university.tn" class="contact-value">
+                    arij.oudi@horizon-university.tn
+                  </a>
+                </div>
+              </div>
+              <button
+                type="button"
+                id="copy-email-btn"
+                class="btn btn-secondary btn-sm"
+                data-copy="arij.oudi@horizon-university.tn"
+              >
+                Copy
+              </button>
+            </div>
+
+            <div class="card contact-item">
+              <div class="contact-item-left">
+                <div class="skill-icon" aria-hidden="true">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                  </svg>
+                </div>
+                <div>
+                  <div class="contact-label">Phone</div>
+                  <a href="tel:+21624381438" class="contact-value">+216 24381438</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card contact-item">
+              <div class="contact-item-left">
+                <div class="skill-icon" aria-hidden="true">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.56 0-.28-.01-1.02-.02-2-3.2.7-3.88-1.54-3.88-1.54-.52-1.33-1.28-1.69-1.28-1.69-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.71 1.26 3.37.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11.05 11.05 0 0 1 5.79 0c2.21-1.49 3.18-1.18 3.18-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.42-2.69 5.39-5.26 5.68.41.36.78 1.07.78 2.15 0 1.55-.01 2.8-.01 3.18 0 .31.21.68.8.56A11.51 11.51 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"/>
+                  </svg>
+                </div>
+                <div>
+                  <div class="contact-label">GitHub</div>
+                  <a
+                    href="https://github.com/Arij77-jpg"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="contact-value"
+                  >
+                    github.com/Arij77-jpg
+                  </a>
+                </div>
+              </div>
+              <a
+                href="https://github.com/Arij77-jpg"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn-secondary btn-sm"
+              >
+                Visit
+              </a>
+            </div>
+
+            <div class="card contact-item">
+              <div class="contact-item-left">
+                <div class="skill-icon" aria-hidden="true">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                </div>
+                <div>
+                  <div class="contact-label">Location</div>
+                  <span class="contact-value">Zarzis, Tunisia</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <form id="contact-form" class="card contact-form reveal">
+            <h3 class="skill-card-title">Send a Message</h3>
+            <div class="form-row">
+              <div class="field">
+                <label for="name">Your Name</label>
+                <input id="name" name="name" type="text" placeholder="Jane Doe" required />
+              </div>
+              <div class="field">
+                <label for="email">Your Email</label>
+                <input id="email" name="email" type="email" placeholder="jane@example.com" required />
+              </div>
+            </div>
+            <div class="field">
+              <label for="subject">Subject</label>
+              <input id="subject" name="subject" type="text" placeholder="Internship / Collaboration Opportunity" required />
+            </div>
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="4" placeholder="Tell me about your project or opportunity..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">
+              <span>Compose Email</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true">
+                <line x1="22" y1="2" x2="11" y2="13"></line>
+                <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+              </svg>
+            </button>
+            <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> Arij Oudi. Crafted with clean HTML, CSS &amp; JavaScript.</p>
+      <a href="#top" class="nav-link">Back to top &uarr;</a>
+    </div>
+  </footer>
+
+  <!-- Project Detail Modal -->
+  <div id="project-modal" class="modal-backdrop" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal">
+      <div class="modal-header">
+        <div>
+          <span id="modal-tag" class="section-tag">Project</span>
+          <h3 id="modal-title" class="modal-title"></h3>
+        </div>
+        <button id="close-modal" class="icon-btn" type="button" aria-label="Close modal">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p id="modal-desc"></p>
+        <ul id="modal-highlights" class="modal-highlights"></ul>
+        <div id="modal-tech" class="tech-stack"></div>
+        <div style="display: flex; gap: 12px; margin-top: 10px;">
+          <a
+            href="https://github.com/Arij77-jpg"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn btn-primary btn-sm"
+          >
+            View on GitHub &rarr;
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
