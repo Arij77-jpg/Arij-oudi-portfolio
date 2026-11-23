@@ -6,8 +6,8 @@ A modern, responsive developer portfolio built with pure **HTML5, CSS3, and Vani
 - **Sleek Dark Tech / AI & DevOps aesthetic** with a persistent **Dark / Light mode toggle** (`localStorage`).
 - **Interactive Hero** with constellation particle canvas, dynamic role typing animation, and terminal-style JSON profile card.
 - **Complete CV Showcase**:
-  - **About & Education**: Horizon School of Digital Technology, Double Degree with Chinese Bingeng Polytechnic, Dual Degree with Collège de Paris, and High School Diploma (2024).
-  - **Projects**: Filterable project showcase (*HorizonExam*, *The Snitch's Path*, *Adventure Time Treasure Hunt*) with interactive detail modals.
+  - **About & Education**: Horizon School of Digital Technology, Double Degree with Beijing Polytechnic, Dual Degree with Collège de Paris, and High School Diploma (2024).
+  - **Projects**: Filterable project showcase (*Bledi+ (بلادي+)*, *HorizonExam*, *The Snitch's Path*, *Adventure Time Treasure Hunt*, and Robotics projects) with interactive detail modals.
   - **Skills**: Programming, Web & Databases, DevOps/Tools/AI, and Methodologies.
   - **Certifications & Leadership**: NVIDIA, Meta, HP LIFE, 15+ Robotics Certifications, and filterable Leadership & Achievements (HoriBot Club, GDSC, Delta Club, Nuit de l'Info, GAICA, etc.).
   - **Contact**: One-click copy email, direct contact links, and email composer form.

@@ -47,6 +47,7 @@
         <a href="#skills" class="nav-link">Skills</a>
         <a href="#certifications" class="nav-link">Certifications</a>
         <a href="#leadership" class="nav-link">Leadership</a>
+        <a href="#gallery" class="nav-link">Gallery</a>
         <a href="#contact" class="nav-link">Contact</a>
       </nav>
 
@@ -120,9 +121,9 @@
 
           <p class="hero-summary">
             Motivated Software Engineering student with strong foundations in programming,
-            algorithms, databases, and software development. Passionate about
+            algorithms, databases, and full-stack web and mobile development. Passionate about
             <strong>Artificial Intelligence</strong>, <strong>Cloud Computing</strong>,
-            <strong>DevOps</strong>, and building efficient, real-world software solutions.
+            <strong>DevOps</strong>, and building impactful, scalable software solutions.
           </p>
 
           <div class="hero-ctas">
@@ -256,7 +257,7 @@
               <span class="pill">Artificial Intelligence</span>
               <span class="pill">Cloud Computing</span>
               <span class="pill">DevOps</span>
-              <span class="pill">Full-Stack Web</span>
+              <span class="pill">Full-Stack Web &amp; Mobile</span>
               <span class="pill">Robotics</span>
             </div>
 
@@ -278,7 +279,7 @@
               </div>
               <ul class="edu-list">
                 <li>Bachelor's in Software Engineering and Information Systems</li>
-                <li>Currently enrolled in the Double Degree Program with <strong>Chinese Bingeng Polytechnic</strong></li>
+                <li>Currently enrolled in the Double Degree Program with <strong>Beijing Polytechnic</strong></li>
                 <li>Enrolled in a Dual Degree Program with <strong>Collège de Paris</strong></li>
               </ul>
             </article>
@@ -309,13 +310,61 @@
         </div>
 
         <div class="filter-bar reveal" role="group" aria-label="Filter projects">
-          <button type="button" class="filter-btn active" data-filter="all">All Projects (8)</button>
+          <button type="button" class="filter-btn active" data-filter="all">All Projects (9)</button>
+          <button type="button" class="filter-btn" data-filter="mobile">Mobile &amp; CivicTech</button>
           <button type="button" class="filter-btn" data-filter="fullstack">Full-Stack Systems</button>
           <button type="button" class="filter-btn" data-filter="game">Interactive &amp; Algorithms</button>
           <button type="button" class="filter-btn" data-filter="robotics">Robotics &amp; IoT</button>
         </div>
 
-        <div class="projects-grid">
+                <div class="projects-grid">
+          <!-- Bledi+ (بلادي+) -->
+          <article class="card project-card reveal" data-category="mobile fullstack">
+            <div class="project-banner banner-bledi">
+              <div class="project-top-row">
+                <span class="project-type">Mobile &middot; CivicTech</span>
+                <div class="project-icon-wrap" aria-hidden="true">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect>
+                    <line x1="12" y1="18" x2="12.01" y2="18"></line>
+                  </svg>
+                </div>
+              </div>
+              <span class="project-visual-label">// CivicTech &middot; RBAC &middot; D&eacute;l&eacute;gation Isolation &middot; Real-Time</span>
+            </div>
+
+            <div class="project-body">
+              <h3 class="project-title">Bledi+ (بلادي+)</h3>
+              <p class="project-desc">
+                CivicTech mobile platform enabling Tunisian citizens to report urban issues and municipal staff to track, resolve, and verify repairs with Before/After photo proof. Implemented domain-based RBAC, regional (D&eacute;l&eacute;gation) data isolation, and real-time push notifications.
+              </p>
+              <div class="tech-stack">
+                <span class="tech-tag">React Native</span>
+                <span class="tech-tag">Expo</span>
+                <span class="tech-tag">TypeScript</span>
+                <span class="tech-tag">Firebase Firestore</span>
+                <span class="tech-tag">Cloud Functions</span>
+              </div>
+              <div class="project-actions">
+                <button
+                  type="button"
+                  class="btn btn-secondary btn-sm open-modal-btn"
+                  data-project="bledi"
+                >
+                  View Details
+                </button>
+                <a
+                  href="https://github.com/Arij77-jpg"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="nav-link"
+                >
+                  GitHub &rarr;
+                </a>
+              </div>
+            </div>
+          </article>
+
           <!-- HorizonExam -->
           <article class="card project-card reveal" data-category="fullstack">
             <div class="project-banner banner-exam">
@@ -730,9 +779,11 @@
                   <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
                 </svg>
               </div>
-              <h3 class="skill-card-title">Web &amp; Backend</h3>
+              <h3 class="skill-card-title">Mobile, Web &amp; Backend</h3>
             </div>
             <div class="skill-chips">
+              <span class="skill-chip"><span class="skill-dot"></span>React Native</span>
+              <span class="skill-chip"><span class="skill-dot"></span>Expo</span>
               <span class="skill-chip"><span class="skill-dot"></span>React</span>
               <span class="skill-chip"><span class="skill-dot"></span>Next.js</span>
               <span class="skill-chip"><span class="skill-dot"></span>Node.js</span>
@@ -753,13 +804,14 @@
                   <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
                 </svg>
               </div>
-              <h3 class="skill-card-title">Databases &amp; Data</h3>
+              <h3 class="skill-card-title">Databases &amp; Cloud</h3>
             </div>
             <div class="skill-chips">
+              <span class="skill-chip"><span class="skill-dot"></span>Firebase (Firestore, Auth, Storage, Cloud Functions)</span>
               <span class="skill-chip"><span class="skill-dot"></span>PostgreSQL</span>
               <span class="skill-chip"><span class="skill-dot"></span>MySQL</span>
               <span class="skill-chip"><span class="skill-dot"></span>MongoDB</span>
-              <span class="skill-chip"><span class="skill-dot"></span>Supabase (Secure)</span>
+              <span class="skill-chip"><span class="skill-dot"></span>Supabase</span>
               <span class="skill-chip"><span class="skill-dot"></span>Prisma</span>
               <span class="skill-chip"><span class="skill-dot"></span>Spark</span>
               <span class="skill-chip"><span class="skill-dot"></span>SQL</span>
@@ -773,14 +825,14 @@
                   <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
                 </svg>
               </div>
-              <h3 class="skill-card-title">DevOps, Tools &amp; AI</h3>
+              <h3 class="skill-card-title">Tools &amp; Methodologies</h3>
             </div>
             <div class="skill-chips">
               <span class="skill-chip"><span class="skill-dot"></span>Git</span>
               <span class="skill-chip"><span class="skill-dot"></span>Docker</span>
-              <span class="skill-chip"><span class="skill-dot"></span>MySQL</span>
+              <span class="skill-chip"><span class="skill-dot"></span>Agile Development</span>
+              <span class="skill-chip"><span class="skill-dot"></span>Test-Driven Development (TDD)</span>
               <span class="skill-chip"><span class="skill-dot"></span>AI Tools</span>
-              <span class="skill-chip"><span class="skill-dot"></span>IDEs</span>
             </div>
           </article>
 
@@ -1016,11 +1068,47 @@
       </div>
     </section>
 
+    <!-- Activities & Photo Albums -->
+    <section id="gallery" class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">06 // Moments in Action</span>
+          <h2 class="section-title">Activities &amp; Photo Albums</h2>
+          <p class="section-subtitle">
+            Browse 38 real moments organized into curated albums — robotics competitions, HoriBot Club, GAICA Global AI Congress, AJIZ Zarzis, hardware prototypes, and student trainings. Select any album to explore.
+          </p>
+        </div>
+
+        <!-- Albums Overview -->
+        <div id="albums-grid" class="albums-grid reveal" aria-label="Activity Photo Albums"></div>
+
+        <!-- Active Album Detail View -->
+        <div id="album-detail-view" class="album-detail-view hidden">
+          <div class="album-detail-bar">
+            <div class="album-detail-left">
+              <button type="button" id="back-to-albums" class="btn btn-secondary btn-sm">
+                &larr; All Albums
+              </button>
+              <div>
+                <h3 id="album-detail-title" class="album-detail-title"></h3>
+                <p id="album-detail-sub" class="album-detail-sub"></p>
+              </div>
+            </div>
+            <span id="album-detail-count" class="badge"></span>
+          </div>
+
+          <div id="album-switcher" class="album-switcher" role="group" aria-label="Switch album"></div>
+
+          <div class="gallery-grid" id="gallery-grid"></div>
+        </div>
+      </div>
+    </section>
+
     <!-- Contact -->
     <section id="contact" class="section">
       <div class="container">
         <div class="section-header reveal">
-          <span class="section-tag">06 // Get In Touch</span>
+          <span class="section-tag">07 // Get In Touch</span>
           <h2 class="section-title">Let's Connect</h2>
           <p class="section-subtitle">
             Interested in collaborating on software engineering, AI, Cloud/DevOps, or robotics initiatives? Reach out directly.
@@ -1182,6 +1270,41 @@
           >
             View on GitHub &rarr;
           </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Lightbox Viewer -->
+  <div id="lightbox" class="lightbox-backdrop" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="lightbox-title">
+    <div class="lightbox-content">
+      <div class="lightbox-stage">
+        <button id="lightbox-prev" class="lightbox-nav lightbox-prev" type="button" aria-label="Previous photo">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="15 18 9 12 15 6"></polyline>
+          </svg>
+        </button>
+        <img id="lightbox-img" class="lightbox-img" src="" alt="" />
+        <button id="lightbox-next" class="lightbox-nav lightbox-next" type="button" aria-label="Next photo">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="9 18 15 12 9 6"></polyline>
+          </svg>
+        </button>
+      </div>
+      <div class="lightbox-bar">
+        <div>
+          <span id="lightbox-tag" class="section-tag"></span>
+          <h3 id="lightbox-title" class="lightbox-caption-title"></h3>
+          <p id="lightbox-sub" class="lightbox-caption-sub"></p>
+        </div>
+        <div class="lightbox-controls">
+          <span id="lightbox-counter" class="lightbox-counter">1 / 15</span>
+          <button id="lightbox-close" class="icon-btn" type="button" aria-label="Close photo viewer">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+              <line x1="18" y1="6" x2="6" y2="18"></line>
+              <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+          </button>
         </div>
       </div>
     </div>
