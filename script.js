@@ -494,7 +494,7 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   /* ------------------------------------------------------------------------
-     7b. Activities Photo Albums & Lightbox Viewer (38 Photos, 4 Albums)
+     7b. Activities Photo Albums & Lightbox Viewer (51 Photos, 6 Albums)
      ------------------------------------------------------------------------ */
   const GALLERY_ALBUMS = [
     {
@@ -580,6 +580,13 @@ document.addEventListener('DOMContentLoaded', () => {
           title: 'HoriBot Club — Horizon University',
           sub: 'Leading and presenting HoriBot Club on stage as Founder & President',
           pos: ''
+        },
+        {
+          src: 'assets/activities/gaica-global-ai-congress-stage-delegate.jpg',
+          badge: 'GAICA Stage',
+          title: 'GAICA Global AI Congress — Horizon Delegate & Staff',
+          sub: 'Coordinating event operations on stage as official staff member and university delegate',
+          pos: 'pos-center'
         },
         {
           src: 'assets/activities/gaica-staff-badge.jpg',
@@ -792,6 +799,106 @@ document.addEventListener('DOMContentLoaded', () => {
           title: 'Community Impact — Young Robotics Trainees',
           sub: 'Memorable wrap-up moment with enthusiastic young robotics students in Zarzis',
           pos: ''
+        }
+      ]
+    },
+    {
+      id: 'iswit',
+      shortName: 'ISWIT Tunisia',
+      title: 'International Student Week in Tunisia (ISWIT)',
+      desc: 'Organizing Committee Member for ISWIT (2 Years) — coordinating international delegations, cultural exchanges, street marches, youth assemblies & global conferences across Tunisia.',
+      photos: [
+        {
+          src: 'assets/activities/iswit-parade-builders-of-tomorrow.jpg',
+          badge: 'ISWIT Parade',
+          title: 'Builders of Tomorrow — ISWIT Street Parade',
+          sub: 'Organizing committee leading the international student march through the city with flags of Palestine, Algeria and global delegations',
+          pos: 'pos-center'
+        },
+        {
+          src: 'assets/activities/iswit-celebration-dancing-square.jpg',
+          badge: 'Celebration',
+          title: 'ISWIT Cultural Square Celebration',
+          sub: 'International delegates dancing and celebrating together in the historic square (ISWIT Tunisia)',
+          pos: 'pos-center'
+        },
+        {
+          src: 'assets/activities/iswit-field-global-flags-delegates.jpg',
+          badge: 'Delegations',
+          title: 'Global Youth Gathering & National Flags',
+          sub: 'Showcasing unity with delegates holding flags of Serbia, DR Congo, Algeria, Germany, and Tunisia',
+          pos: 'pos-center'
+        },
+        {
+          src: 'assets/activities/iswit-ajiz-conference-auditorium.jpg',
+          badge: 'Conference',
+          title: 'ISWIT & AJIZ Plenary Conference Session',
+          sub: 'Hosting discussions on international youth empowerment, technology, and cross-border innovation',
+          pos: 'pos-center'
+        },
+        {
+          src: 'assets/activities/iswit-welcome-to-tunisia-opening.jpg',
+          badge: 'Opening Gala',
+          title: "'Welcome to Tunisia' Opening Ceremony",
+          sub: 'Grand auditorium opening gala with musical performance, welcoming delegates from over 15 nations',
+          pos: 'pos-center'
+        },
+        {
+          src: 'assets/activities/iswit-night-bus-international-delegates.jpg',
+          badge: 'Global Tour',
+          title: 'ISWIT Night Delegation Gathering',
+          sub: 'Group photo alongside delegates representing Turkey, Syria, Palestine, Italy, Algeria, and Egypt',
+          pos: 'pos-center'
+        },
+        {
+          src: 'assets/activities/iswit-tunisian-algerian-flags-lobby.jpg',
+          badge: 'Brotherhood',
+          title: 'Welcoming Algerian Delegates to Tunisia',
+          sub: 'Bilateral youth exchange welcoming our Algerian neighbors with national flags in the congress lobby',
+          pos: 'pos-center'
+        },
+        {
+          src: 'assets/activities/iswit-hall-youth-gathering.jpg',
+          badge: 'Assembly',
+          title: 'ISWIT International Assembly & Peace Signs',
+          sub: 'Delegates making peace signs inside the hall during workshops and team-building sessions',
+          pos: 'pos-center'
+        }
+      ]
+    },
+    {
+      id: 'chinese-degree',
+      shortName: 'Beijing Polytechnic',
+      title: 'Chinese Double Degree — Beijing Polytechnic',
+      desc: 'Double Degree Program with Beijing Polytechnic & Horizon School of Digital Technology — Mandarin Chinese immersion, Chinese history lectures, Hanfu culture, and ink calligraphy workshops.',
+      photos: [
+        {
+          src: 'assets/activities/beijing-polytechnic-chinese-class-group.jpg',
+          badge: 'Cohort & Class',
+          title: 'Horizon × Beijing Polytechnic Class & Cohort',
+          sub: 'First Chinese class (第1课 你好) and student cohort with native Chinese instructors at Horizon School of Digital Tech',
+          pos: 'pos-center'
+        },
+        {
+          src: 'assets/activities/beijing-polytechnic-calligraphy-arij.jpg',
+          badge: 'Calligraphy',
+          title: 'Traditional Ink Brush Calligraphy Workshop',
+          sub: 'Arij practicing Chinese brush calligraphy (writing characters for Love "爱" and "阿丽" Arij in Hanzi)',
+          pos: 'pos-center'
+        },
+        {
+          src: 'assets/activities/beijing-polytechnic-hanfu-culture-lecture.jpg',
+          badge: 'Culture',
+          title: 'Chinese Traditional Culture & Architecture Lecture',
+          sub: "Interactive presentation of historic Hanfu attire and architectural landmarks (Xi'an Bell Tower)",
+          pos: 'pos-center'
+        },
+        {
+          src: 'assets/activities/beijing-polytechnic-calligraphy-sheets.jpg',
+          badge: 'Characters',
+          title: 'Chinese Character Ink Practice Sheets',
+          sub: 'Calligraphy grid exercises studying stroke balance and phrases ("我想去中国" / I want to go to China 🇨🇳❤️)',
+          pos: 'pos-center'
         }
       ]
     }

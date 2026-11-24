@@ -24,8 +24,8 @@ A modern, responsive developer portfolio built with pure **HTML5, CSS3, and Vani
   - **Technical Skills**: Mobile, Web & Backend, Databases & Cloud (Firebase, PostgreSQL, etc.), Tools & Methodologies (Docker, Git, Agile, TDD), and Spoken Languages.
   - **Certifications & Specialized Trainings**: NVIDIA (Deep Learning), Meta (Front-End), HP LIFE, 15+ Robotics Certifications, FTSAAA Aeronautics/Cerf-volant, Graphic Design, and Secourisme (First Aid).
   - **Leadership, Activities & 4-Album Photo Gallery**:
-    - 38 real event photos categorized into 4 interactive albums with full-screen lightbox.
-    - Leadership entries for HoriBot Club, GDSC, SFE, IEEE, Scouts, Collège Mouansa, École de la Vie, GAICA, and robotics competitions.
+    - 51 real event photos categorized into 6 interactive albums (Robotics Competitions, Leadership & GAICA, Hardware Builds, Teaching & Workshops, ISWIT Tunisia, and Chinese Double Degree Beijing Polytechnic) with full-screen lightbox.
+    - Leadership entries for HoriBot Club, GDSC, SFE, IEEE, Scouts, ISWIT Organizing Committee (2 Years), Collège Mouansa, École de la Vie, GAICA Global AI Congress, and national robotics competitions.
   - **Contact Section**: One-click email copy, direct links, CV download link, and prefilled email composer.
 
 ## Preview Locally
