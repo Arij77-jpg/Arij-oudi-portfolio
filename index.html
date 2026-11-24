@@ -49,9 +49,26 @@
         <a href="#leadership" class="nav-link">Leadership</a>
         <a href="#gallery" class="nav-link">Gallery</a>
         <a href="#contact" class="nav-link">Contact</a>
+        <a href="assets/CV_Arij_Oudi.pdf" target="_blank" rel="noopener noreferrer" class="nav-link nav-link-cv" title="View & Download CV (PDF)">CV ↗</a>
       </nav>
 
       <div class="nav-actions">
+        <a
+          href="assets/CV_Arij_Oudi.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn btn-sm btn-nav-cv"
+          title="View & Download CV (PDF)"
+        >
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+            <polyline points="14 2 14 8 20 8"></polyline>
+            <line x1="16" y1="13" x2="8" y2="13"></line>
+            <line x1="16" y1="17" x2="8" y2="17"></line>
+          </svg>
+          <span>CV</span>
+        </a>
+
         <button
           id="theme-toggle"
           class="icon-btn"
@@ -133,19 +150,38 @@
                 <path d="M5 12h14M12 5l7 7-7 7"></path>
               </svg>
             </a>
-            <a href="#contact" class="btn btn-secondary">
-              <span>Contact Me</span>
-            </a>
+
+            <!-- CV Action Buttons -->
             <a
-              href="https://github.com/Arij77-jpg"
+              href="assets/CV_Arij_Oudi.pdf"
               target="_blank"
               rel="noopener noreferrer"
-              class="btn btn-secondary"
+              class="btn btn-cv-view"
+              title="View CV in a new tab"
             >
-              <span>GitHub</span>
-              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                <path d="M7 17L17 7M7 7h10v10"></path>
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                <circle cx="12" cy="12" r="3"></circle>
               </svg>
+              <span>View CV</span>
+            </a>
+
+            <a
+              href="assets/CV_Arij_Oudi.pdf"
+              download="CV_Arij_Oudi.pdf"
+              class="btn btn-cv-download"
+              title="Download CV (PDF)"
+            >
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+              </svg>
+              <span>Download CV</span>
+            </a>
+
+            <a href="#contact" class="btn btn-secondary">
+              <span>Contact Me</span>
             </a>
           </div>
 
@@ -280,7 +316,7 @@
               <ul class="edu-list">
                 <li>Bachelor's in Software Engineering and Information Systems</li>
                 <li>Currently enrolled in the Double Degree Program with <strong>Beijing Polytechnic</strong></li>
-                <li>Enrolled in a Dual Degree Program with <strong>Collège de Paris</strong></li>
+                <li>Enrolled in a Double Diploma Program with <strong>ESTIAM Paris</strong></li>
               </ul>
             </article>
 
@@ -292,6 +328,52 @@
               <ul class="edu-list">
                 <li>Tunisian National Curriculum</li>
               </ul>
+            </article>
+
+            <!-- Interactive CV Card -->
+            <article class="card cv-box-card reveal">
+              <div class="cv-box-header">
+                <div class="cv-icon" aria-hidden="true">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                    <polyline points="14 2 14 8 20 8"></polyline>
+                    <line x1="16" y1="13" x2="8" y2="13"></line>
+                    <line x1="16" y1="17" x2="8" y2="17"></line>
+                  </svg>
+                </div>
+                <div class="cv-box-info">
+                  <h4 class="cv-box-title">Curriculum Vitae (PDF)</h4>
+                  <p class="cv-box-subtitle">Updated 2026 &middot; Software Engineer Student</p>
+                </div>
+              </div>
+              <div class="cv-actions">
+                <a
+                  href="assets/CV_Arij_Oudi.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn btn-secondary btn-sm"
+                  title="Open CV in new tab"
+                >
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                    <circle cx="12" cy="12" r="3"></circle>
+                  </svg>
+                  <span>View CV</span>
+                </a>
+                <a
+                  href="assets/CV_Arij_Oudi.pdf"
+                  download="CV_Arij_Oudi.pdf"
+                  class="btn btn-primary btn-sm"
+                  title="Download CV file directly"
+                >
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                    <polyline points="7 10 12 15 17 10"></polyline>
+                    <line x1="12" y1="15" x2="12" y2="3"></line>
+                  </svg>
+                  <span>Download PDF</span>
+                </a>
+              </div>
             </article>
           </div>
         </div>
@@ -1197,6 +1279,42 @@
                   <div class="contact-label">Location</div>
                   <span class="contact-value">Zarzis, Tunisia</span>
                 </div>
+              </div>
+            </div>
+
+            <div class="card contact-item">
+              <div class="contact-item-left">
+                <div class="skill-icon" aria-hidden="true">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                    <polyline points="14 2 14 8 20 8"></polyline>
+                    <line x1="16" y1="13" x2="8" y2="13"></line>
+                    <line x1="16" y1="17" x2="8" y2="17"></line>
+                  </svg>
+                </div>
+                <div>
+                  <div class="contact-label">Curriculum Vitae</div>
+                  <span class="contact-value">Arij Oudi &mdash; CV (PDF)</span>
+                </div>
+              </div>
+              <div class="contact-cv-btns">
+                <a
+                  href="assets/CV_Arij_Oudi.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn btn-secondary btn-sm"
+                  title="View CV in new tab"
+                >
+                  View
+                </a>
+                <a
+                  href="assets/CV_Arij_Oudi.pdf"
+                  download="CV_Arij_Oudi.pdf"
+                  class="btn btn-primary btn-sm"
+                  title="Download CV"
+                >
+                  Download
+                </a>
               </div>
             </div>
           </div>

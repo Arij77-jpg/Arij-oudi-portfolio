@@ -2068,3 +2068,189 @@ ul {
     transition-duration: 0.01ms !important;
   }
 }
+
+
+/* --------------------------------------------------------------------------
+   CV Buttons & Interactive Showcase Styles
+-------------------------------------------------------------------------- */
+.btn-cv-view {
+  background: rgba(56, 189, 248, 0.1);
+  border: 1px solid rgba(56, 189, 248, 0.35);
+  color: var(--accent-cyan);
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 500;
+  transition: all var(--transition-fast);
+}
+
+.btn-cv-view:hover {
+  background: rgba(56, 189, 248, 0.18);
+  border-color: var(--accent-cyan);
+  color: #fff;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(56, 189, 248, 0.22);
+}
+
+.btn-cv-download {
+  background: rgba(16, 185, 129, 0.1);
+  border: 1px solid rgba(16, 185, 129, 0.35);
+  color: var(--accent-emerald);
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 500;
+  transition: all var(--transition-fast);
+}
+
+.btn-cv-download:hover {
+  background: rgba(16, 185, 129, 0.2);
+  border-color: var(--accent-emerald);
+  color: #fff;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(16, 185, 129, 0.24);
+}
+
+[data-theme="light"] .btn-cv-view {
+  background: rgba(2, 132, 199, 0.08);
+  border-color: rgba(2, 132, 199, 0.3);
+  color: #0369a1;
+}
+
+[data-theme="light"] .btn-cv-view:hover {
+  background: rgba(2, 132, 199, 0.15);
+  border-color: #0284c7;
+  color: #0284c7;
+}
+
+[data-theme="light"] .btn-cv-download {
+  background: rgba(5, 150, 105, 0.08);
+  border-color: rgba(5, 150, 105, 0.3);
+  color: #047857;
+}
+
+[data-theme="light"] .btn-cv-download:hover {
+  background: rgba(5, 150, 105, 0.15);
+  border-color: #059669;
+  color: #059669;
+}
+
+.btn-nav-cv {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  font-family: var(--font-mono);
+  border-radius: 8px;
+  background: rgba(56, 189, 248, 0.1);
+  border: 1px solid rgba(56, 189, 248, 0.3);
+  color: var(--accent-cyan);
+  text-decoration: none;
+  transition: all var(--transition-fast);
+}
+
+.btn-nav-cv:hover {
+  background: var(--gradient-brand);
+  color: #060913;
+  border-color: transparent;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 14px var(--accent-glow);
+}
+
+.nav-link-cv {
+  color: var(--accent-cyan) !important;
+  font-weight: 600;
+}
+
+/* About Section CV Box Card */
+.cv-box-card {
+  margin-top: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+  padding: 18px 22px;
+  background: linear-gradient(135deg, rgba(56, 189, 248, 0.05) 0%, rgba(16, 185, 129, 0.05) 100%), var(--bg-card);
+  border: 1px solid rgba(56, 189, 248, 0.25);
+  border-radius: var(--radius-lg);
+  position: relative;
+  overflow: hidden;
+}
+
+.cv-box-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 100%;
+  background: var(--gradient-brand);
+}
+
+.cv-box-header {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.cv-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  background: rgba(56, 189, 248, 0.12);
+  color: var(--accent-cyan);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  border: 1px solid rgba(56, 189, 248, 0.25);
+}
+
+.cv-box-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.cv-box-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin: 0;
+}
+
+.cv-box-subtitle {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  margin: 0;
+  font-family: var(--font-mono);
+}
+
+.cv-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.contact-cv-btns {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+@media (max-width: 640px) {
+  .cv-box-card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .cv-actions {
+    width: 100%;
+  }
+  .cv-actions .btn {
+    flex: 1;
+    justify-content: center;
+  }
+}
