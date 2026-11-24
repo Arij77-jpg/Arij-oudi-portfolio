@@ -494,7 +494,7 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   /* ------------------------------------------------------------------------
-     7b. Activities Photo Albums & Lightbox Viewer (51 Photos, 6 Albums)
+     7b. Activities Photo Albums & Lightbox Viewer (53 Photos, 6 Albums)
      ------------------------------------------------------------------------ */
   const GALLERY_ALBUMS = [
     {
@@ -870,11 +870,18 @@ document.addEventListener('DOMContentLoaded', () => {
       id: 'chinese-degree',
       shortName: 'Beijing Polytechnic',
       title: 'Chinese Double Degree — Beijing Polytechnic',
-      desc: 'Double Degree Program with Beijing Polytechnic & Horizon School of Digital Technology — Mandarin Chinese immersion, Chinese history lectures, Hanfu culture, and ink calligraphy workshops.',
+      desc: 'Double Degree Program with Beijing Polytechnic & Horizon School of Digital Technology — Mandarin Chinese immersion, Chinese history lectures, Hanfu culture, ink calligraphy & traditional Chinese knotting craft.',
       photos: [
         {
+          src: 'assets/activities/beijing-polytechnic-how-it-started-how-it-went.jpg',
+          badge: 'Journey & Cohort',
+          title: "'How It Started vs How It Went' — Academic Journey",
+          sub: "From our first calligraphy exercises ('我爱北京' I Love Beijing) to our end-of-year celebratory cohort gathering with our Chinese professors",
+          pos: 'pos-center'
+        },
+        {
           src: 'assets/activities/beijing-polytechnic-chinese-class-group.jpg',
-          badge: 'Cohort & Class',
+          badge: '1st Lesson & Class',
           title: 'Horizon × Beijing Polytechnic Class & Cohort',
           sub: 'First Chinese class (第1课 你好) and student cohort with native Chinese instructors at Horizon School of Digital Tech',
           pos: 'pos-center'
@@ -883,7 +890,21 @@ document.addEventListener('DOMContentLoaded', () => {
           src: 'assets/activities/beijing-polytechnic-calligraphy-arij.jpg',
           badge: 'Calligraphy',
           title: 'Traditional Ink Brush Calligraphy Workshop',
-          sub: 'Arij practicing Chinese brush calligraphy (writing characters for Love "爱" and "阿丽" Arij in Hanzi)',
+          sub: "Arij practicing Chinese brush calligraphy (writing characters for Love '爱' and '阿丽' Arij in Hanzi)",
+          pos: 'pos-center'
+        },
+        {
+          src: 'assets/activities/beijing-polytechnic-calligraphy-sheets.jpg',
+          badge: 'Characters',
+          title: 'Chinese Character Ink Practice Sheets',
+          sub: "Calligraphy grid exercises studying stroke balance and phrases ('我想去中国' / I want to go to China 🇨🇳❤️)",
+          pos: 'pos-center'
+        },
+        {
+          src: 'assets/activities/beijing-polytechnic-chinese-knotting-craft.jpg',
+          badge: 'Craft & Tradition',
+          title: 'Traditional Chinese Knotting Craft Workshop',
+          sub: 'Learning the ancient art of decorative Chinese knotting (中国结) with our native cultural instructors',
           pos: 'pos-center'
         },
         {
@@ -891,13 +912,6 @@ document.addEventListener('DOMContentLoaded', () => {
           badge: 'Culture',
           title: 'Chinese Traditional Culture & Architecture Lecture',
           sub: "Interactive presentation of historic Hanfu attire and architectural landmarks (Xi'an Bell Tower)",
-          pos: 'pos-center'
-        },
-        {
-          src: 'assets/activities/beijing-polytechnic-calligraphy-sheets.jpg',
-          badge: 'Characters',
-          title: 'Chinese Character Ink Practice Sheets',
-          sub: 'Calligraphy grid exercises studying stroke balance and phrases ("我想去中国" / I want to go to China 🇨🇳❤️)',
           pos: 'pos-center'
         }
       ]
